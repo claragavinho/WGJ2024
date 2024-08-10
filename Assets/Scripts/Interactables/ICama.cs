@@ -1,19 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using System;
 public class ICama : MonoBehaviour, IInteractable
 {
+    public static Action OnClickDialogue;
     public void OnClickAction()
     {
-        Debug.Log("Teste");
+        OnClickDialogue.Invoke();
     }
-    void OnEnable()
+    void Start()
     {
-        InteractablesManager.AddToInteractablesEvent.Invoke(transform);
+        InteractablesManager.AddToInteractablesEvent(transform);
     }
     void OnDisable()
     {
-        InteractablesManager.RemoveFromInteractablesEvent.Invoke(transform);
+        InteractablesManager.RemoveFromInteractablesEvent(transform);
     }
 }
