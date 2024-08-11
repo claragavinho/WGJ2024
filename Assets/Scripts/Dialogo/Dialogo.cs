@@ -5,7 +5,7 @@ using UnityEngine;
 public class Dialogo
 {
     public Sprite sprite;
-    public string[] names;
+    public string name;
 
     [TextArea(3, 10)]
     public string[] sentences;
