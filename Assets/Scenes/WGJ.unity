@@ -712,8 +712,9 @@ MonoBehaviour:
   imagemUI: {fileID: 470163114}
   dialogo:
     sprite: {fileID: 0}
-    name: 
-    sentences: []
+    name: Tie
+    sentences:
+    - Teste de dialogo
 --- !u!1001 &204471231
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4581,7 +4582,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6308500474517144123, guid: 0b29a2abc6228354fa69bd0859474d48, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

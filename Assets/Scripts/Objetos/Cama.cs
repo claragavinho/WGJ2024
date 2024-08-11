@@ -30,7 +30,6 @@ public class Cama : MonoBehaviour
     private void ImagemDoItem()
     {
         imagemUI.SetActive(true); //liga a ui do item
-        imagemUI.AddComponent(typeof(Image)); //adiciona uma imagem ao gameobject da ui
         imagemDoItem = Resources.Load<Sprite>(""); //sprite do obj da cama
         imagemUI.GetComponent<Image>().sprite = imagemDoItem; //coloca o sprite do obj na imagem
     }
