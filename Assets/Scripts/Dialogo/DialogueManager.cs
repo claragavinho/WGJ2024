@@ -6,6 +6,9 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
+    [SerializeField]
+    GameObject UI;
+
     public TMP_Text nameText;
     public TMP_Text dialogueText;
     public Sprite spritePersonagem;
@@ -18,6 +21,7 @@ public class DialogueManager : MonoBehaviour
     }
     public void StartDialogue(Dialogo dialogo)
     {
+        UI.SetActive(true);
         nameText.text = dialogo.name;
         spritePersonagem = dialogo.sprite;
 
@@ -43,6 +47,6 @@ public class DialogueManager : MonoBehaviour
     }
     public void EndDialogue()
     {
-
+        UI.SetActive(false);
     }
 }
