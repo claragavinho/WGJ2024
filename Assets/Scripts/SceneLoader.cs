@@ -7,11 +7,18 @@ public class SceneLoader : MonoBehaviour
     [SerializeField]
     public InteractablesManager interactablesManager;
 
-    public void NextScene()
+    public void Scene1()
+    {
+        if (interactablesManager.interactables.Count == 6)
+        {
+            LoadScene("Cena 2");
+        }
+    }
+    public void Scene2()
     {
         if (interactablesManager.interactables.Count == 3)
         {
-            //LoadScene();
+            LoadScene("Cena 3");
         }
     }
     public void LoadScene(string scene)
