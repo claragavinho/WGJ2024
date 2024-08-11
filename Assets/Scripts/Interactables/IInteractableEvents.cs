@@ -5,8 +5,8 @@ using System;
 
 public class IInteractableEvents : MonoBehaviour, IInteractable
 {
-    public static Action OnClickDialogue;
-    public static Action OnClickItemImage;
+    public Action OnClickDialogue;
+    public Action OnClickItemImage;
     public void OnClickAction()
     {
         OnClickDialogue.Invoke();

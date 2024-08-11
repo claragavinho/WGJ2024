@@ -13,16 +13,23 @@ public class ObjectManager : MonoBehaviour
 
     public Dialogo dialogo;
 
+    private IInteractableEvents interactableEvents;
+
+    private void Awake()
+    {
+        interactableEvents = GetComponent<IInteractableEvents>();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        IInteractableEvents.OnClickDialogue += InvocarDialogo; //invoca o dialogo
-        IInteractableEvents.OnClickItemImage += ImagemDoItem; //invoca a imagem
+        interactableEvents.OnClickDialogue += InvocarDialogo; //invoca o dialogo
+        interactableEvents.OnClickItemImage += ImagemDoItem; //invoca a imagem
     }
     private void OnDisable()
     {
-        IInteractableEvents.OnClickDialogue -= InvocarDialogo; //para o dialogo
-        IInteractableEvents.OnClickItemImage -= ImagemDoItem; //tira o item
+        interactableEvents.OnClickDialogue -= InvocarDialogo; //para o dialogo
+        interactableEvents.OnClickItemImage -= ImagemDoItem; //tira o item
     }
     private void InvocarDialogo()
     {
@@ -31,7 +38,6 @@ public class ObjectManager : MonoBehaviour
     private void ImagemDoItem()
     {
         imagemUI.SetActive(true); //liga a ui do item
-        imagemDoItem = Resources.Load<Sprite>(""); //sprite do obj da cama
         imagemUI.GetComponent<Image>().sprite = imagemDoItem; //coloca o sprite do obj na imagem
     }
 }
