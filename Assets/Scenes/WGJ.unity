@@ -173,8 +173,10 @@ MonoBehaviour:
   imagemDoItem: {fileID: 0}
   dialogo:
     sprite: {fileID: 0}
-    name: 
-    sentences: []
+    names:
+    - "Ti\xEA"
+    sentences:
+    - "Um monte de m\xFAsica velha."
 --- !u!114 &17322904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -453,8 +455,10 @@ MonoBehaviour:
   imagemDoItem: {fileID: 0}
   dialogo:
     sprite: {fileID: 0}
-    name: 
-    sentences: []
+    names:
+    - "Ti\xEA"
+    sentences:
+    - "Acho que uma caneta n\xE3o \xE9 o suficiente pra apagar o passado."
 --- !u!114 &97616258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -801,7 +805,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &262271635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -915,46 +919,8 @@ Material:
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowIntensity: {r: 4.99, g: -3.9899998, b: 0, a: 0}
     - _ToLightDir: {r: 0.02084916, g: 0.38059556, b: -0.92450655, a: 0}
-    - _WindDirection: {r: 16.301851, g: 10.867941, b: 0, a: 284.29565}
+    - _WindDirection: {r: 3.2924328, g: 2.1949549, b: 0, a: 81.58049}
   m_BuildTextureStacks: []
---- !u!84 &482873445
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthStencilFormat: 90
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_EnableRandomWrite: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
 --- !u!21 &692465038
 Material:
   serializedVersion: 8
@@ -1035,7 +1001,7 @@ Material:
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowIntensity: {r: 0, g: 1, b: 0, a: 0}
     - _ToLightDir: {r: -0, g: 0.62296045, b: -0.7822533, a: 0}
-    - _WindDirection: {r: 16.301851, g: 10.867941, b: 0, a: 284.29565}
+    - _WindDirection: {r: 3.2924328, g: 2.1949549, b: 0, a: 81.58049}
   m_BuildTextureStacks: []
 --- !u!1001 &782490716
 PrefabInstance:
@@ -1215,7 +1181,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &958743420 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 8760192077872204816, guid: 96180f3a51d5fc54a87f060d09baedc1, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1545935475949491768, guid: 96180f3a51d5fc54a87f060d09baedc1, type: 3}
   m_PrefabInstance: {fileID: 958743418}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &968912780
@@ -1336,7 +1302,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967293
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 482873445}
+  m_TargetTexture: {fileID: 1293355324}
   m_TargetDisplay: 0
   m_TargetEye: 0
   m_HDR: 0
@@ -1622,6 +1588,44 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 38.533, y: 0, z: 0}
+--- !u!84 &1293355324
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 5
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthStencilFormat: 90
+  m_ColorFormat: 0
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_EnableRandomWrite: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+  m_ShadowSamplingMode: 2
 --- !u!1 &1332179875
 GameObject:
   m_ObjectHideFlags: 0
@@ -1843,7 +1847,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1507667390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1870,11 +1874,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1761076500}
-  - {fileID: 1629772338}
-  - {fileID: 17322902}
-  - {fileID: 1904320903}
   - {fileID: 97616256}
+  - {fileID: 1904320903}
+  - {fileID: 17322902}
+  - {fileID: 1629772338}
+  - {fileID: 1761076500}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1613677913
@@ -1976,8 +1980,10 @@ MonoBehaviour:
   imagemDoItem: {fileID: 0}
   dialogo:
     sprite: {fileID: 0}
-    name: 
-    sentences: []
+    names:
+    - "Ti\xEA"
+    sentences:
+    - "Tem coisas que n\xE3o deveriam ser registradas em papel. Essa \xE9 uma delas."
 --- !u!114 &1629772340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2368,9 +2374,10 @@ MonoBehaviour:
   imagemDoItem: {fileID: 0}
   dialogo:
     sprite: {fileID: 0}
-    name: Tie
+    names:
+    - "Ti\xEA"
     sentences:
-    - Teste de dialogo
+    - "Mudo. Parece que t\xE1 sem o fio. Acho que \xE9 melhor assim."
 --- !u!114 &1761076502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2484,8 +2491,11 @@ MonoBehaviour:
   imagemDoItem: {fileID: 0}
   dialogo:
     sprite: {fileID: 0}
-    name: 
-    sentences: []
+    names:
+    - "Ti\xEA"
+    sentences:
+    - "A m\xFAsica parecia correr pelo meu sangue\u2026 n\xE3o serve de muita coisa
+      agora."
 --- !u!114 &1904320905
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -13,6 +13,7 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text dialogueText;
     public Sprite spritePersonagem;
 
+    private Queue<string> names;
     private Queue<string> sentences;
     // Start is called before the first frame update
     void Start()
@@ -23,10 +24,15 @@ public class DialogueManager : MonoBehaviour
     public void StartDialogue(Dialogo dialogo)
     {
         UI.SetActive(true);
-        nameText.text = dialogo.name;
+        //nameText.text = dialogo.name;
         spritePersonagem = dialogo.sprite;
 
         sentences.Clear();
+
+        foreach (string name in dialogo.names)
+        {
+            names.Enqueue(name);
+        }
 
         foreach (string sentence in dialogo.sentences) 
         { 
