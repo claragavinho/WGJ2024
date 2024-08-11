@@ -34,6 +34,7 @@ public class ObjectManager : MonoBehaviour
     private void InvocarDialogo()
     {
         FindObjectOfType<DialogueManager>().StartDialogue(dialogo); //comeca o dialogo pelo dialoguemanager
+        InteractablesManager.RemoveFromInteractablesEvent(transform);
     }
     private void ImagemDoItem()
     {
