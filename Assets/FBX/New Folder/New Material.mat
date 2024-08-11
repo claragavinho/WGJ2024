@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-442898310484503008
+--- !u!114 &-179735777941710335
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,26 +20,26 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: toon1 3
-  m_Shader: {fileID: 4800000, guid: 650dd9526735d5b46b79224bc6e94025, type: 3}
+  m_Name: New Material
+  m_Shader: {fileID: -6465566751694194690, guid: 3bb35f7f86ffc45c2aa6fc4291f787fc, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _SHADING_STYLE_SKIN_AND_TEXTILES
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap:
-    RenderType: Opaque
+  stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 115bbb5373f04bf42bb57c04dec4eb10, type: 3}
-        m_Scale: {x: 8.16, y: 8.49}
+        m_Texture: {fileID: 2800000, guid: 9af7026f0b1da60499e52c1692ff9653, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
@@ -62,8 +62,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 115bbb5373f04bf42bb57c04dec4eb10, type: 3}
-        m_Scale: {x: 8.16, y: 8.49}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -104,7 +104,6 @@ Material:
     - _AlphaToMask: 0
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
-    - _BlendOp: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -128,24 +127,23 @@ Material:
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _SHADING_STYLE: 0
-    - _SampleGI: 0
-    - _ShadowsFloor: 0.25
+    - _ShadowsFloor: 0.212
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SpecularNoiseSize: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
-    - _StrongRimStrength: 1
+    - _StrongRimStrength: 0.23
     - _Surface: 0
     - _ToonCutoffPoint: 0.2
     - _UseEmission: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
-    - _Color: {r: 0.20754716, g: 0.20754716, b: 0.20754716, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _SpecularColor: {r: 1, g: 1, b: 1, a: 0}
+    - _SpecularColor: {r: 1, g: 0.29011518, b: 0, a: 0}
   m_BuildTextureStacks: []
