@@ -6,7 +6,7 @@ using System;
 public class InteractablesManager : MonoBehaviour
 {
     [SerializeField]
-    private List<Transform> interactables; //lista de todos os interagiveis 
+    public List<Transform> interactables; //lista de todos os interagiveis 
 
     public List<Transform> Interactables
     {

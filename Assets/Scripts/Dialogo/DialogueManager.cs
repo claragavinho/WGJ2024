@@ -1,7 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
@@ -12,6 +14,8 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text nameText;
     public TMP_Text dialogueText;
     public Sprite spritePersonagem;
+
+    public UnityEvent OnDialogueEnd;
 
     private Queue<string> sentences;
     // Start is called before the first frame update
@@ -50,5 +54,6 @@ public class DialogueManager : MonoBehaviour
     public void EndDialogue()
     {
         UI.SetActive(false);
+        OnDialogueEnd.Invoke();
     }
 }
