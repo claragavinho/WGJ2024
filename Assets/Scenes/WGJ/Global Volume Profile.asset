@@ -15,7 +15,7 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: 1.2
+    m_Value: 1.32
   contrast:
     m_OverrideState: 0
     m_Value: 0
@@ -28,6 +28,40 @@ MonoBehaviour:
   saturation:
     m_OverrideState: 0
     m_Value: 0
+--- !u!114 &-3367298224100784639
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb2952b95454955ba507c3d96778a76, type: 3}
+  m_Name: VhsVol
+  m_EditorClassIdentifier: 
+  active: 1
+  _weight:
+    m_OverrideState: 1
+    m_Value: 0.231
+  _bleed:
+    m_OverrideState: 1
+    m_Value: 0.81
+  _rocking:
+    m_OverrideState: 1
+    m_Value: 0.0071
+  _tape:
+    m_OverrideState: 1
+    m_Value: 0.1
+  _noise:
+    m_OverrideState: 1
+    m_Value: 0.081
+  _flickering:
+    m_OverrideState: 1
+    m_Value: 0.07
+  _glitch:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44,6 +78,24 @@ MonoBehaviour:
   - {fileID: 8316381273150687139}
   - {fileID: -6872901717749650831}
   - {fileID: 7681972361982177293}
+  - {fileID: -3367298224100784639}
+  - {fileID: 5351859261050337192}
+--- !u!114 &5351859261050337192
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81180773991d8724ab7f2d216912b564, type: 3}
+  m_Name: ChromaticAberration
+  m_EditorClassIdentifier: 
+  active: 1
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.064
 --- !u!114 &7681972361982177293
 MonoBehaviour:
   m_ObjectHideFlags: 3

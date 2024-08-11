@@ -98,9 +98,9 @@ Material:
     - _Colour: {r: 1, g: 1, b: 1, a: 1}
     - _Colour_Toggle: {r: 100, g: 100, b: 100, a: 0}
     - _Colour_Weights: {r: 1, g: 1, b: 1, a: 0}
-    - _DayColour: {r: 0, g: 0.5991616, b: 1, a: 1}
+    - _DayColour: {r: 0, g: 0.5547169, b: 0.9245283, a: 1}
     - _DensityRemap: {r: 0.1, g: 2, b: 0, a: 0}
-    - _EveningColour: {r: 1, g: 0.8384258, b: 0.759434, a: 1}
+    - _EveningColour: {r: 0.7607843, g: 0.9027981, b: 1, a: 1}
     - _ScatteringCoefficients: {r: 5.8, g: 13.5, b: 33.1, a: 0}
     - _SizeMultiplier: {r: 1, g: 0.1, b: 1, a: 0}
     - _SkyColour: {r: 1, g: 1, b: 1, a: 1}

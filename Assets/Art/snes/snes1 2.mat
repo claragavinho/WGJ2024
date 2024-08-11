@@ -127,7 +127,7 @@ Material:
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _SHADING_STYLE: 0
-    - _ShadowsFloor: 0.25
+    - _ShadowsFloor: 0.402
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -136,7 +136,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StrongRimStrength: 0.939
     - _Surface: 0
-    - _ToonCutoffPoint: 0.2
+    - _ToonCutoffPoint: 0.472
     - _UseEmission: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
