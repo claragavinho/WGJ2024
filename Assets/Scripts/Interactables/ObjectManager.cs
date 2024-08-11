@@ -3,25 +3,26 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Cama : MonoBehaviour
+public class ObjectManager : MonoBehaviour
 {
     [SerializeField]
     GameObject imagemUI; //para ligar a ui que mostra a imagem do item
 
-    private Sprite imagemDoItem; //imagem do item em si
+    [SerializeField]
+    Sprite imagemDoItem;//imagem do item em si
 
     public Dialogo dialogo;
 
     // Start is called before the first frame update
     void Start()
     {
-        ICama.OnClickDialogue += InvocarDialogo; //invoca o dialogo
-        ICama.OnClickItemImage += ImagemDoItem; //invoca a imagem
+        IInteractableEvents.OnClickDialogue += InvocarDialogo; //invoca o dialogo
+        IInteractableEvents.OnClickItemImage += ImagemDoItem; //invoca a imagem
     }
     private void OnDisable()
     {
-        ICama.OnClickDialogue -= InvocarDialogo; //para o dialogo
-        ICama.OnClickItemImage -= ImagemDoItem; //tira o item
+        IInteractableEvents.OnClickDialogue -= InvocarDialogo; //para o dialogo
+        IInteractableEvents.OnClickItemImage -= ImagemDoItem; //tira o item
     }
     private void InvocarDialogo()
     {

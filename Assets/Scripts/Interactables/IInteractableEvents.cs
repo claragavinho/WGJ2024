@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-public class ICama : MonoBehaviour, IInteractable
+
+public class IInteractableEvents : MonoBehaviour, IInteractable
 {
     public static Action OnClickDialogue;
     public static Action OnClickItemImage;
