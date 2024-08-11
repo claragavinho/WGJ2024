@@ -961,7 +961,7 @@ Material:
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowIntensity: {r: 4.99, g: -3.9899998, b: 0, a: 0}
     - _ToLightDir: {r: 0.02084916, g: 0.38059556, b: -0.92450655, a: 0}
-    - _WindDirection: {r: 0.31063378, g: 0.20708913, b: 0, a: 25.957428}
+    - _WindDirection: {r: 0.765994, g: 0.5106626, b: 0, a: 59.331264}
   m_BuildTextureStacks: []
 --- !u!1 &567198183
 GameObject:
@@ -1285,7 +1285,7 @@ Material:
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowIntensity: {r: 0, g: 1, b: 0, a: 0}
     - _ToLightDir: {r: -0, g: 0.62296045, b: -0.7822533, a: 0}
-    - _WindDirection: {r: 0.31063378, g: 0.20708913, b: 0, a: 25.957428}
+    - _WindDirection: {r: 0.765994, g: 0.5106626, b: 0, a: 59.331264}
   m_BuildTextureStacks: []
 --- !u!1001 &782490716
 PrefabInstance:
@@ -3045,6 +3045,7 @@ GameObject:
   - component: {fileID: 1761076504}
   - component: {fileID: 1761076503}
   - component: {fileID: 1761076502}
+  - component: {fileID: 1761076505}
   m_Layer: 0
   m_Name: Telefone
   m_TagString: Untagged
@@ -3129,6 +3130,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1761076499}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1761076505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761076499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71de52798f2252b4e93d1fd0480506ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imagemUI: {fileID: 580108578}
+  imagemDoItem: {fileID: 21300000, guid: d1fee83b88595194c92e2e33621ad9ff, type: 3}
+  dialogo:
+    sprite: {fileID: 0}
+    name: "Ti\xEA"
+    sentences:
+    - "Mudo. Parece que t\xE1 sem o fio. Acho que \xE9 melhor assim."
 --- !u!1 &1904320902
 GameObject:
   m_ObjectHideFlags: 0
