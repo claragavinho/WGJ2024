@@ -86,7 +86,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AdditionalLightCutoffPoint: 0.8
+    - _AdditionalLightCutoffPoint: 0.53
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
@@ -114,21 +114,21 @@ Material:
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _SHADING_STYLE: 0
-    - _ShadowsFloor: 0.25
+    - _ShadowsFloor: 0.5
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SpecularNoiseSize: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
-    - _StrongRimStrength: 1
+    - _StrongRimStrength: 0
     - _Surface: 0
-    - _ToonCutoffPoint: 0.2
+    - _ToonCutoffPoint: 0.36
     - _UseEmission: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.6509434, g: 0.6509434, b: 0.6509434, a: 1}
+    - _BaseColor: {r: 0.282583, g: 0.35081303, b: 0.511, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}

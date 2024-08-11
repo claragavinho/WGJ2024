@@ -125,7 +125,7 @@ Material:
     - _SpecularHighlights: 1
     - _SpecularNoiseSize: 1
     - _SrcBlend: 1
-    - _StrongRimStrength: 0.281
+    - _StrongRimStrength: 0
     - _ToonCutoffPoint: 0.153
     - _UVSec: 0
     - _UseEmission: 0

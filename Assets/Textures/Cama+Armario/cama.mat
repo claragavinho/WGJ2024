@@ -123,7 +123,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _StrongRimStrength: 0.037
     - _Surface: 0
-    - _ToonCutoffPoint: 0.211
+    - _ToonCutoffPoint: 0.354
     - _UseEmission: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
