@@ -3241,7 +3241,7 @@ Material:
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowIntensity: {r: 0, g: 1, b: 0, a: 0}
     - _ToLightDir: {r: -0.6393039, g: 0.49575418, b: 0.58780843, a: 0}
-    - _WindDirection: {r: 0.030555822, g: 0.02037055, b: 0, a: 7.416408}
+    - _WindDirection: {r: 6.620753, g: 4.413811, b: 0, a: 59.9493}
   m_BuildTextureStacks: []
 --- !u!1 &1544409974
 GameObject:
@@ -3925,7 +3925,7 @@ Material:
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowIntensity: {r: 0, g: 1, b: 0, a: 0}
     - _ToLightDir: {r: -0, g: -0, b: -1, a: 0}
-    - _WindDirection: {r: 0.030555822, g: 0.02037055, b: 0, a: 7.416408}
+    - _WindDirection: {r: 6.620753, g: 4.413811, b: 0, a: 59.9493}
   m_BuildTextureStacks: []
 --- !u!21 &1728697082
 Material:
@@ -4007,7 +4007,7 @@ Material:
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowIntensity: {r: 0, g: 1, b: 0, a: 0}
     - _ToLightDir: {r: -0, g: 0.2845562, b: -0.95865935, a: 0}
-    - _WindDirection: {r: 0.030555822, g: 0.02037055, b: 0, a: 7.416408}
+    - _WindDirection: {r: 6.620753, g: 4.413811, b: 0, a: 59.9493}
   m_BuildTextureStacks: []
 --- !u!4 &1743860019 stripped
 Transform:
@@ -9298,7 +9298,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 568cd2bea6a413d4aaee98ff04640b21, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.73
+      value: -0.673
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 568cd2bea6a413d4aaee98ff04640b21, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9871,7 +9871,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fc1676eb9c45b654eb64fc2677957920, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.07328099
+      value: 0.108
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fc1676eb9c45b654eb64fc2677957920, type: 3}
       propertyPath: m_LocalPosition.z
