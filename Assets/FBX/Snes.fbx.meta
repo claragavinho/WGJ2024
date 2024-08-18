@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ff9ececef99ae8a43b684c55b13f4d1b
+guid: 74a015286aece094883c126481debece
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,10 +7,45 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: No Name
-    second: {fileID: 2100000, guid: e8c23fd65a314b84cb3ba14c5d681064, type: 2}
+      name: Material_001
+    second: {fileID: 2100000, guid: 64c28a9f4c1077f499a90ed98f12852c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_002
+    second: {fileID: 2100000, guid: 64c28a9f4c1077f499a90ed98f12852c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: snes1
+    second: {fileID: 2100000, guid: 2923716553d2fbc4481a9f0766db381d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: snes1_1
+    second: {fileID: 2100000, guid: 2923716553d2fbc4481a9f0766db381d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: snes1_2
+    second: {fileID: 2100000, guid: 64c28a9f4c1077f499a90ed98f12852c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: snes1_3
+    second: {fileID: 2100000, guid: d6fb2b04ae6590d4297fd09d89e18253, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: super_nes_gampad
+    second: {fileID: -7371841303974903162, guid: 24d36720edc5c224091ebdd27536ce16, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toon_black
+    second: {fileID: 2100000, guid: b5ccbd0356ecdd148bbafcf92f626b87, type: 2}
   materials:
-    materialImportMode: 1
+    materialImportMode: 2
     materialName: 0
     materialSearch: 1
     materialLocation: 1

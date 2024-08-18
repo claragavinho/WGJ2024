@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Floor
-    second: {fileID: 2100000, guid: 062459da0b6dc4b45b1faa5381640d2e, type: 2}
+    second: {fileID: 2100000, guid: e807f38082d6dea41a8ceb944cd7d1ba, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
